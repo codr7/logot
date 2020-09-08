@@ -1,7 +1,6 @@
 package codr7.logot;
 
 import java.awt.Point;
-import java.util.Map;
 
 public class Robot {
     public Robot(Room room, Language language) {
