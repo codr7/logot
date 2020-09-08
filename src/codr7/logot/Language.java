@@ -23,6 +23,8 @@ public abstract class Language {
                 case West:
                     return 'W';
             }
+
+            throw new RuntimeException("Invalid direction");
         }
     }
 
@@ -47,6 +49,8 @@ public abstract class Language {
                 case West:
                     return 'V';
             }
+
+            throw new RuntimeException("Invalid direction");
         }
     }
 

@@ -80,6 +80,8 @@ public class Robot {
         System.out.printf(
                 "%d %d %c",
                 position.x, position.y, language.formatDirection(direction));
+
+        return true;
     }
 
     private Room room;
