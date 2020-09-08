@@ -61,26 +61,24 @@ public class Robot {
         return false;
     }
 
-    public boolean execute(String commands) {
+    public void execute(String commands) {
         for (int i = 0; i < commands.length(); i++) {
             Command c = language.getCommand(commands.charAt(i));
 
             if (c == null) {
                 System.out.printf("Invalid command at %d", i);
-                return false;
+                break;
             }
 
             if (!c.execute(this)) {
                 System.out.printf("Failed executing command at %d", i);
-                return false;
+                break;
             }
         }
 
         System.out.printf(
                 "%d %d %c",
                 position.x, position.y, language.formatDirection(direction));
-
-        return true;
     }
 
     private Room room;
