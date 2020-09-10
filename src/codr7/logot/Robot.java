@@ -3,11 +3,11 @@ package codr7.logot;
 import java.awt.Point;
 
 public class Robot {
-    public Robot(Room room, Language language) {
+    public Robot(Language language, Room room) {
+        this.language = language;
         this.room = room;
         this.position = room.getStartPosition();
         this.direction = Direction.North;
-        this.language = language;
     }
 
     public void turnLeft() {
@@ -63,26 +63,27 @@ public class Robot {
 
     public void execute(String commands) {
         for (int i = 0; i < commands.length(); i++) {
-            Command c = language.getCommand(commands.charAt(i));
+            char cid = commands.charAt(i);
+            Command c = language.getCommand(cid);
 
             if (c == null) {
-                System.out.printf("Invalid command at %d", i);
+                System.out.println(language.getMessage("invalid-command", i, cid));
                 break;
             }
 
             if (!c.execute(this)) {
-                System.out.printf("Failed executing command at %d", i);
+                System.out.println(language.getMessage("failed-executing", i, cid));
                 break;
             }
         }
 
         System.out.printf(
-                "%d %d %c",
+                "%d %d %c\n",
                 position.x, position.y, language.formatDirection(direction));
     }
 
+    private Language language;
     private Room room;
     private Point position;
     private Direction direction;
-    private Language language;
 }

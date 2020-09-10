@@ -15,5 +15,5 @@ public interface Command {
         return r.moveForward();
     };
 
-    public boolean execute(Robot robot);
+    boolean execute(Robot robot);
 }

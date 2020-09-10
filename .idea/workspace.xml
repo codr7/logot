@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ba289-221d-4100-a069-4bfdd34bf3c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/codr7/logot/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codr7/logot/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codr7/logot/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codr7/logot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Robot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hF7WQ8wNEEG1l5TanwvK6t99Me" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,22 +70,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599601533626">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599738207370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599601533626" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599601533626">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599738207370" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599738207369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599601533626" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599601533626">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599738207369" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599738207369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599601533626" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599601533626">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599738207369" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599738207370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599601533626" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599738207370" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599600675155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -95,9 +102,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599600675155" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1599595720041">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599736317771">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1599595720041" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1599736317771" />
   </component>
 </project>
