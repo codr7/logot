@@ -74,6 +74,6 @@ public abstract class Language {
 
     public abstract char formatDirection(Direction direction);
 
-    protected Map<Character, Command> commands = new HashMap<>();
-    private ResourceBundle messages;
+    protected final Map<Character, Command> commands = new HashMap<>();
+    private final ResourceBundle messages;
 }

@@ -10,6 +10,10 @@ public class Robot {
         this.direction = Direction.North;
     }
 
+    public Point position() {
+        return position;
+    }
+
     public void turnLeft() {
         switch (direction) {
             case North:
@@ -82,8 +86,8 @@ public class Robot {
                 position.x, position.y, language.formatDirection(direction));
     }
 
-    private Language language;
-    private Room room;
+    private final Language language;
+    private final Room room;
     private Point position;
     private Direction direction;
 }

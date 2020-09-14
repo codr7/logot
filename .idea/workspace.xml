@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b62ba289-221d-4100-a069-4bfdd34bf3c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codr7/logot/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codr7/logot/CommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codr7/logot/LanguageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codr7/logot/RobotTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Example1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/logot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Language.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/codr7/logot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codr7/logot/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codr7/logot/Robot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -35,9 +40,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="codr7.logot" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="codr7.logot.Main" />
       <module name="logot" />
@@ -48,9 +71,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="codr7.logot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="logot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codr7.logot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codr7.logot" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.codr7.logot" />
       </list>
     </recent_temporary>
   </component>
@@ -68,22 +108,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1599744139974">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1600087140315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599744139974" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1599744139973">
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1600087140315" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600088535234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599744139973" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1599744139973">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600088535234" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600088535234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599744139973" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1599744139973">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600088535234" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600088535234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599744139973" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600088535234" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600088535234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600088535234" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599600675155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -104,6 +148,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1599736317771" />
+    <state x="665" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600087068138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1600087068138" />
+    <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600088169919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="223" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600088169919" />
+    <state x="342" y="140" key="new project wizard" timestamp="1600015737017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600015737017" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599743864706">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

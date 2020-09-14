@@ -10,7 +10,5 @@ public class Main {
 
         Example ex2 = new Example(new Ellipse2D.Float(-10, -10, 20, 20), new Point(0, 0));
         new Robot(Language.EN, ex2).execute("RRFLFFLRF");
-        
-        // TODO add tests
     }
 }

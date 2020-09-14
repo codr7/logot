@@ -18,6 +18,6 @@ public class Example implements Room {
         return shape.contains(position.x, position.y);
     }
 
-    private Shape shape;
-    private Point startPosition;
+    private final Shape shape;
+    private final Point startPosition;
 }
